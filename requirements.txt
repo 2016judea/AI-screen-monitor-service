@@ -1,0 +1,23 @@
+# OpenCLIP model + PyTorch
+open-clip-torch==2.23.0
+torch
+torchvision
+
+# BLIP-2 (for image captioning)
+transformers==4.41.0
+timm==0.9.12
+accelerate
+bitsandbytes
+
+# OCR (for pulling text from screen grabs)
+pytesseract
+pillow
+
+# Chroma vector store client
+chromadb
+
+# Screen capture
+mss
+
+# Image handling
+pillow
